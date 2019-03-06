@@ -1,0 +1,61 @@
+#blackBoard{
+  border: 1px grey solid;
+  border-radius: 10px;
+  background-color: black;
+  box-shadow: 5px 5px 10px grey;
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#ticTable{
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  margin-top:25px;
+  border: 0;
+  padding: 0;
+}
+
+.cube{
+  width:33%;
+  height:33px;
+  padding: 0;
+  border: 0;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "comic sans ms";
+}
+
+#c1{
+  border: 2px solid white;
+  border-left: 0;
+  border-top: 0;
+}
+#c3{
+  border: 2px solid white;
+  border-right: 0;
+  border-top: 0;
+}
+#c7{
+  border: 2px solid white;
+  border-left: 0;
+  border-bottom: 0;
+}
+#c9{
+  border: 2px solid white;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+#c5{
+  border: 2px solid white;
+}
+
+#restart{
+  font-size: 1.5em;
+  margin-left:33%;
+  margin-top: 15px;
+}
